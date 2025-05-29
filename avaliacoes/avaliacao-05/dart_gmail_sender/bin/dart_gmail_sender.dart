@@ -8,10 +8,10 @@ main() async {
 
   // Cria uma mensagem de e-mail
   final message = Message()
-    ..from = Address('gabriel.tito09@aluno.ifce.edu.br', 'Tito')
-    ..recipients.add('mariaclara141207@gmail.com')
-    ..subject = 'Assunto do e-mail'
-    ..text = 'Corpo do e-mail';
+    ..from = Address('gabriel.tito09@aluno.ifce.edu.br', 'João Gabriel Tito')
+    ..recipients.add('taveira@ifce.edu.br')
+    ..subject = 'Prova Prática-01'
+    ..text = '';
 
   try {
     // Envia o e-mail usando o servidor SMTP do Gmail
