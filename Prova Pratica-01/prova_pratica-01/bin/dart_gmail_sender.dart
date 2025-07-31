@@ -6,7 +6,7 @@ Future<void> enviarEmail(String conteudoJson) async {
 
   final message = Message()
     ..from = Address('gabriel.tito09@aluno.ifce.edu.br', 'João Gabriel Tito')
-    ..recipients.add('taveira@ifce.edu.br')
+    ..recipients.add('clara.ribeiro09@aluno.ifce.edu.br')
     ..subject = 'Prova Prática - 01'
     ..text = 'Segue abaixo o JSON do pedido:\n\n$conteudoJson';
 
